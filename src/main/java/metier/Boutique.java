@@ -2,25 +2,35 @@ package metier;
 
 public class Boutique {
 	private String nom;
-	private String Adresse;
+	private Adresse adresse;
 	
+	public Boutique(String nom, Adresse adresse) {
+		super();
+		this.nom = nom;
+		this.adresse = adresse;
+	}
+
 	public String getNom() {
 		return nom;
 	}
+
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
-	public String getAdresse() {
-		return Adresse;
+
+	public Adresse getAdresse() {
+		return adresse;
 	}
-	public void setAdresse(String adresse) {
-		Adresse = adresse;
+
+	public void setAdresse(Adresse adresse) {
+		this.adresse = adresse;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "Boutique [nom=" + nom + ", Adresse=" + Adresse + "]";
+		return "Boutique [nom=" + nom + ", adresse=" + adresse + "]";
 	}
+	
 	
 
 }
