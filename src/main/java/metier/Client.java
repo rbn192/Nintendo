@@ -1,14 +1,20 @@
 package metier;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Client {
 
 	private String prenom;
 	private String nom;
+	private List <Achat> listeAchat = new ArrayList();
+
 	
 	public Client(String prenom, String nom) {
-		super();
+
 		this.prenom = prenom;
 		this.nom = nom;
+
 	}
 
 	public String getPrenom() {
