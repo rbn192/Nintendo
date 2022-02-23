@@ -1,5 +1,7 @@
 package test;
 
+import metier.Adresse;
+import metier.Boutique;
 import metier.Console;
 import metier.Jeu;
 
@@ -14,8 +16,8 @@ public class Test {
 		Jeu marioParty= new Jeu("Mario Party", gamecube);
 		Jeu kirby= new Jeu("Kirby's Adventure", gamecube);
 		
-		
+		Adresse adresseDeLucie = new Adresse("5", "rue de Mario", "Nantes");
+		Boutique boutiqueDeLucie = new Boutique("Boutique de Lucie", adresseDeLucie);
 	}
-	
 
 }
