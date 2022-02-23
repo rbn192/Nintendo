@@ -13,6 +13,9 @@ public class Test {
 		Jeu zelda= new Jeu("Zelda OoT", gamecube);
 		Jeu marioParty= new Jeu("Mario Party", gamecube);
 		Jeu kirby= new Jeu("Kirby's Adventure", gamecube);
+		
+		
 	}
+	
 
 }
