@@ -13,7 +13,9 @@ public class Jeu {
 	public Jeu(String titre, Console console, Boutique boutique) {
 		this.titre = titre;
 		this.console = console;
-		this.boutique= boutique;	}
+
+		this.boutique=boutique;
+	}
 
 
 
